@@ -1,0 +1,101 @@
+#container {
+    width: 1480px; 
+    margin: 0 auto;
+}
+
+#topbar {
+    width: auto; 
+    display: block; 
+    height: 20px;
+}
+#navbar {
+    width: auto; 
+    display: block; 
+    height: 24px;
+}
+
+#main {
+    width: auto; 
+    display: inline-flex;
+    text-align: justify;
+}
+
+#column-left {
+    justify-content: left;
+    width: 810px;
+    padding: 40px 50px;
+    margin-right: 8px; 
+    margin-left: 10px;
+}
+#column-right {
+    justify-content: right;
+    width: 200px; 
+    padding: 50px 0;
+}
+
+div.spacer {
+    clear: both; 
+    height: 10px; 
+    display: block;
+}
+
+#head {
+    width: auto;
+    display: block;
+    height: 50px;
+}
+
+#footer {
+    width: auto; 
+    display: block; 
+    height: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pridi', serif;
+}
+
+#Nav-bar li {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0px
+}
+
+li {
+    float: left;
+}
+
+li a:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(61, 60, 60);
+    padding: 16px 75px;
+    text-decoration: none; 
+}
+
+p {
+    margin: 0; padding: 0;
+    text-indent: 8%;
+    line-height: 1.5;
+}
+
+img {
+    width: 517px;
+    height: 330px;
+}
+
+#bold {
+    font-weight: normal; 
+}
+
+h1. @font-face {
+    font-family: 'Pridi', serif;
+  }
